@@ -16,7 +16,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a><br/>
+        gandhi.su@northeastern.edu
       </header>
     </div>
   );
