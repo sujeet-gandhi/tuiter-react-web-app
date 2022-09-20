@@ -1,0 +1,33 @@
+.fg-color-black { color: black; }
+.fg-color-white { color: white; }
+
+
+.bg-color-black {
+    background-color: black;
+}
+.bg-color-dark-gray {
+    background-color: darkgray;
+}
+
+.grid-col-main-content {
+    margin: 0px;
+    padding: 0px;
+}
+
+.rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.grid-col-main-content {
+    width: 60%;
+    float: inherit;
+}
+
+.border {
+    width: 2px;
+    size: 500px;
+    style: 0;
+    float: left;
+}
+
+
