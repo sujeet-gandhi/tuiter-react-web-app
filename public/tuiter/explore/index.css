@@ -1,12 +1,45 @@
-body {
-    font-family: "Arial";
-    background-color: black;
+.wd-search-bar {
+    border: 1px solid rgb(47, 51, 54);
+    padding: 0px;
+    border-top: 0px;
+}
+
+.wd-search-bar-content {
     color: white;
+    background-color: darkgray;
+    width: 95%;
+    height: 25px;
+    margin-left: 16px;
+    border-radius: 10px;
+    padding: 1px 2px
+}
+
+.wd-gear-setting {
+    float: right;
+    margin-right: 12px;
+    font-size: 30px;
+    text-decoration-line: none;
+}
+
+.wd-undo-wrapping {
+    clear: both;
+}
+
+.wd-more-options {
+    float: right;
+    margin-right: 12px;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+.wd-hr {
+    border: none;
+    margin-top: 0px;
+    height: 12px;
+    background: rgb(47, 51, 54);
 }
 
 .wd-nav-tabs {
     color: rgb(29, 161, 242);
-    padding: 0;
     width: 100%;
     display: inline-block;
 }
@@ -27,16 +60,49 @@ body {
 }
 
 .wd-for-you {
-    border-bottom: 2px solid rgb(110, 118, 125);
-    padding: .3em;
+    border: 1px solid rgb(110, 118, 125);
+    padding: 15px;
 }
 .fg-color-for-you { color: rgb(110, 118, 125); }
 
 .wd-for-you .wd-h3 {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
 }
 .wd-for-you .wd-h1 {
-    margin: 0;
-    padding: 0;
+    margin: 1px;
+    padding: 1px;
+    font-size: 20px;
 }
+
+.wd-for-you .wd-detailed-messages {
+    margin: 1px;
+    padding: 1px;
+    font-size: 20px;
+    width: 80%;
+    float: left;
+}
+.wd-for-you .wd-titles-view-likes {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+.wd-img-for-you {
+    border-radius: 20%;
+    float: right;
+    margin-right: 16px;
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+}
+
+.wd-img-for-you-small {
+    border-radius: 30%;
+    float: left;
+    width: 12px;
+}
+
+
+

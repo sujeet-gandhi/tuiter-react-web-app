@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Explore</title>
     <link href="index.css"
           rel="stylesheet"/>
+    <link href="../style.css"
+          rel="stylesheet"/>
+
 </head>
 <body>
-    <div>
-        <input placeholder="Search Tuiter"/>
-        &#x2699;
+    <div class="wd-search-bar">
+        <input type="text" id="search-bar" class="wd-search-bar-content" placeholder="  🔍  Search Tuiter"/>
+        <a href="explore-setting.html" class="wd-gear-setting">&#x2699;</a>
+        <div class="wd-undo-wrapping"></div>
         <ul class="wd-nav-tabs">
             <div>
                 <li class="wd-selected">For you</li>
@@ -19,19 +23,39 @@
                 <li class="wd-not-selected">Sports</li>
                 <li class="wd-not-selected">Entertainment</li>
             </div>
-
         </ul>
+        </div>
+    <hr class="wd-hr">
         <div class="wd-for-you ">
-            <h3 class="fg-color-for-you wd-h3">Trending in Science</h3>
-            <h1 class="wd-h1">Starship</h1>
-            <h3 class="fg-color-for-you wd-h3">55.5k views</h3>
+            <span class="fg-color-for-you wd-titles-view-likes">Trending in Science</span>
+            <div class="wd-more-options">...</div></br>
+            <span class="wd-h1">Starship</span></br>
+            <span class="fg-color-for-you wd-titles-view-likes">55.5k Tuits</span>
+        </div>
+
+        <div class="wd-for-you ">
+            <span class="fg-color-for-you wd-titles-view-likes">Sports - Trending</span>
+            <div class="wd-more-options">...</div></br>
+            <span class="wd-h1">Joe Rogan</span></br>
+            <span class="fg-color-for-you wd-titles-view-likes">5,218 Tuits</span>
         </div>
         <div class="wd-for-you">
-            <h3 class="fg-color-for-you wd-h3">The NY Times</h3>
-            <h1 class="wd-h1">CNN's Cuomo Conundrum</h1>
-            <h3 class="fg-color-for-you wd-h3">55.5k views</h3>
-            <img src="../bootstrap.jpeg", width="100px", height="100px", float="right">
+            <div style="width: 85%; height: 100%; float: left">
+            <img class="wd-img-for-you-small" src="../nytimes.jpeg">
+            <span class="fg-color-for-you wd-titles-view-likes"> The New York Times ✓️ Yesterday</span></br>
+            <span class="wd-detailed-messages">CNN’s Cuomo Conundrum: Chris Cuomo, the top-rated host, left some colleagues confused after he did not acknowledge the calls for Gov. Andrew Cuomo’s resignation during his Tuesday show.</span>
+            </div>
+                <div><img class="wd-img-for-you" src="../nytimes.jpeg"/></div>
+            <div class="wd-undo-wrapping"></div>
         </div>
-    </div>
+        <div class="wd-for-you">
+            <div style="width: 85%; height: 100%; float: left">
+                <span class="fg-color-for-you wd-titles-view-likes">BBC Newss</span></br>
+                <span class="wd-detailed-messages">Ukraine war: Russians flee to border after military call-up</span>
+            </div>
+            <div><img class="wd-img-for-you" src="../russ-ukr.jpeg"/></div>
+            <div class="wd-undo-wrapping"></div>
+        </div>
+
 </body>
 </html>
