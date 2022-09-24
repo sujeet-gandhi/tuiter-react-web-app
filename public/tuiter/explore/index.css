@@ -1,16 +1,10 @@
-.wd-search-bar {
-    border: 1px solid rgb(47, 51, 54);
-    padding: 0px;
-    border-top: 0px;
-}
-
 .wd-search-bar-content {
     color: white;
     background-color: darkgray;
-    width: 95%;
-    height: 25px;
+    width: 90%;
+    height: 30px;
     margin-left: 16px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 1px 2px
 }
 
@@ -19,10 +13,7 @@
     margin-right: 12px;
     font-size: 30px;
     text-decoration-line: none;
-}
-
-.wd-undo-wrapping {
-    clear: both;
+    color: dodgerblue;
 }
 
 .wd-more-options {
@@ -68,7 +59,7 @@
 .wd-for-you .wd-h3 {
     margin: 0px;
     padding: 0px;
-    font-size: 15px;
+    font-size: 14px;
 }
 .wd-for-you .wd-h1 {
     margin: 1px;
@@ -84,9 +75,17 @@
     float: left;
 }
 .wd-for-you .wd-titles-view-likes {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 0px;
+    font-size: 14px;
+}
+
+.wd-titles-view-likes-white {
     margin: 0px;
     padding: 0px;
     font-size: 15px;
+    color: white;
 }
 
 .wd-img-for-you {
@@ -101,8 +100,14 @@
 .wd-img-for-you-small {
     border-radius: 30%;
     float: left;
-    width: 12px;
+    width: 15px;
 }
+.wd-img-for-you-small2 {
+    border-radius: 50%;
+    float: none;
+    width: 15px;
+}
+
 
 
 
