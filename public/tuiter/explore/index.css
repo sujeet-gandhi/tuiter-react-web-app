@@ -16,13 +16,10 @@
     text-decoration-line: none;
     color: dodgerblue;
 }
-/*
-.wd-more-options {
-    float: right;
-    margin-right: 12px;
-    font-size: 20px;
+.wd-icon-links-selected{
+    color: dodgerblue;
+    text-decoration: None;
 }
-*/
 
 .wd-hr {
     border: none;
