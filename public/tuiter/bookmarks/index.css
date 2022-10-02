@@ -75,14 +75,14 @@
 .wd-tuit-reference-img{
     width: 504px;
     height: 264px;
-    padding-top: 12px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .wd-ref-image-border{
     border:1px solid dimgray;
-    padding-top: 12px;
-    border-top: 0px;
+    padding-top: 0px;
+    border-top: none;
+    margin-top: 12px;
 
 }
 
