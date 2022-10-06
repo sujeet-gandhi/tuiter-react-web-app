@@ -3,83 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <title>Explore</title>
-    <link href="index.css"
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<!--    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
           rel="stylesheet"/>
-    <link href="../style.css"
-          rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+    <link href="../style.css" rel="stylesheet"/>
 
 </head>
 <body>
-    <div class="wd-title-bar">
-        <input type="text" id="search-bar" class="wd-search-bar-content" placeholder="  🔍 &nbsp; Search Tuiter"/>
-        <a href="explore-setting.html" class="wd-gear-setting">&#x2699;</a>
-        <div class="wd-undo-wrapping"></div>
-        <ul class="wd-nav-tabs">
-            <div>
-                <li class="wd-selected">For you</li>
-                <li class="wd-not-selected">Trending</li>
-                <li class="wd-not-selected">COVID-19</li>
-                <li class="wd-not-selected">News</li>
-                <li class="wd-not-selected">Sports</li>
-                <li class="wd-not-selected">Entertainment</li>
+<div class="container pt-2">
+    <div class="row">
+        <div class="col-2">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">
+                    <i class="fab fa-twitter"></i></a>
+                <a href="#" class="list-group-item list-group-item-action active">
+                    <i class="fa-solid fa-house"></i>
+                    Home</a>
+                <a href="#" class="d-inline-flex list-group-item list-group-item-action">
+                    <i class="fa-solid fa-hashtag"></i>
+                    &nbsp;&nbsp;Explore </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    Notifications</a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    Messages</a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    Bookmarks</a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    Lists</a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    Profile</a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    More</a>
             </div>
-        </ul>
+            <button class="mt-1 btn btn-primary rounded-pill w-100"> Tuit </button>
         </div>
-    <hr class="wd-hr">
-        <div class="wd-for-you ">
-            <span class="fg-color-for-you wd-titles-view-likes">Trending in Science</span>
-            <div class="wd-more-options-gray">...</div></br>
-            <span class="wd-h1">Starship</span></br>
-            <span class="fg-color-for-you wd-titles-view-likes">55.5k Tuits</span>
-        </div>
+        <div class="col-6">
+            <div class="row">
+                <div class="col-10">
+                    <div class="position-relative">
+                        <input type="email"  class="form-control rounded-pill wd-padding-search-text"  id="input1" placeholder="Search Tuiter">
+                        <i class="fa-solid fa-magnifying-glass position-absolute wd-search-icon"></i>
+                    </div>
+                </div>
+                <div class="col-2 mt-2">
+                    <i class="fa-solid fa-gear" style="color: dodgerblue"></i>
+                </div>
+            </div>
 
-        <div class="wd-for-you ">
-            <span class="fg-color-for-you wd-titles-view-likes">Sports - Trending</span>
-            <div class="wd-more-options-gray">...</div></br>
-            <span class="wd-h1">Joe Rogan</span></br>
-            <span class="fg-color-for-you wd-titles-view-likes">5,218 Tuits</span>
-        </div>
-        <div class="wd-for-you">
-            <div style="width: 80%; height: 100%; float: left">
-            <img class="wd-img-for-you-small" src="../nytimes.jpeg">
-                <span class="fg-color-for-you wd-titles-view-likes-white">&nbsp; The New York Times</span>
-                <img class="wd-img-for-you-small2" src="../verified.png"> <span class="fg-color-for-you wd-titles-view-likes">&nbsp . Yesterday</span></br>
-            <span class="wd-detailed-messages">Trump Lawyers Push to Limit Aides’ Testimony in Jan. 6 Inquiry</span>
+
+            <ul class="nav nav-tabs mt-2 mb-2">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">For you</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Entertainment</a>
+                </li>
+            </ul>
+            <div class="position-relative">
+            <img src="../../images/ai_day.jpeg" width="100%" height="70%">
+            <h1 class="position-absolute bottom-0 ps-2 text-white">Tesla AI Day</h1>
             </div>
-                <div><img class="wd-img-for-you" src="../trump.webp"/></div>
-            <div class="wd-undo-wrapping"></div>
+            <ul class="list-group mt-0">
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col">
+                            <div class="text-secondary">
+                                Web Development
+                            </div>
+                            <div class="fw-bolder">
+                                ReactJS - 2h
+                            </div>
+                            <div class="fw-bolder">
+                                React JS is a Single Page Application Network
+                            </div>
+
+                        </div>
+                        <div class="col-4">
+                            <img class="float-end" src="../../images/react.webp" height="100px">
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">Tuit 2</li>
+                <li class="list-group-item">Tuit 3</li>
+                <li class="list-group-item">Tuit 4</li>
+            </ul>
         </div>
-        <div class="wd-for-you">
-            <div style="width: 80%; height: 100%; float: left">
-                <span class="fg-color-for-you wd-titles-view-likes">COVID-19 . LIVE</span></br>
-                <span class="wd-detailed-messages">China's COVID rules complicate things for parents whose surrogates live in the U.S.</span>
-            </div>
-            <div><img class="wd-img-for-you" src="../covid.jpeg"/></div>
-            <div class="wd-undo-wrapping"></div>
+        <div class="col-4">
+            Who To Follow
         </div>
-    <div class="wd-for-you">
-        <div style="width: 80%; height: 100%; float: left">
-            <img class="wd-img-for-you-small" src="../bee.png">
-            <span class="fg-color-for-you wd-titles-view-likes-white">&nbsp; The Babylon Bee</span>
-            <img class="wd-img-for-you-small2" src="../verified.png"> <span class="fg-color-for-you wd-titles-view-likes">&nbsp . Yesterday</span></br>
-            <span class="wd-detailed-messages">Thrilling New Top Gun Sequel Shows Predator Drone Completing Same Mission In 30 Seconds</span>
-        </div>
-        <div><img class="wd-img-for-you" src="../maverick.webp"/></div>
-        <div class="wd-undo-wrapping"></div>
     </div>
-        <div class="wd-for-you">
-            <div style="width: 80%; height: 100%; float: left">
-                <span class="fg-color-for-you wd-titles-view-likes">BBC News</span></br>
-                <span class="wd-detailed-messages">Ukraine war: Russians flee to border after military call-up</span>
-            </div>
-            <div><img class="wd-img-for-you" src="../russ-ukr.jpeg"/></div>
-            <div class="wd-undo-wrapping"></div>
-        </div>
-    <div class="wd-for-you ">
-        <span class="fg-color-for-you wd-titles-view-likes">Trending in United States</span>
-        <div class="wd-more-options-gray">...</div></br>
-        <span class="wd-h1">LoveAfterLockUp</span></br>
-        <span class="fg-color-for-you wd-titles-view-likes">5,218 Tuits</span>
-    </div>
+</div>
 </body>
 </html>
