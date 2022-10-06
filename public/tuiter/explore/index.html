@@ -11,98 +11,182 @@
     <link href="../style.css" rel="stylesheet"/>
 
 </head>
-<body>
+<body class="bg-black">
 <div class="container pt-2">
     <div class="row">
+
+<!--   First column-->
+
         <div class="col-2">
             <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action">
-                    <i class="fab fa-twitter"></i></a>
-                <a href="#" class="list-group-item list-group-item-action active">
-                    <i class="fa-solid fa-house"></i>
-                    Home</a>
-                <a href="#" class="d-inline-flex list-group-item list-group-item-action">
-                    <i class="fa-solid fa-hashtag"></i>
-                    &nbsp;&nbsp;Explore </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    Notifications</a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    Messages</a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    Bookmarks</a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    Lists</a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    Profile</a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    More</a>
+                <a href="#" class="list-group-item list-group-item-action bg-black">
+                    <i class="fa-brands fa-twitter wd-side-icon" ></i></a>
+                <a href="#" class="list-group-item list-group-item-action bg-black">
+                    <i class="fa-solid fa-house wd-side-icon" ></i>
+                    <span class="d-none d-xl-inline-block wd-side-bar-text">&nbsp;Home</span></a>
+                <a href="#" class="list-group-item list-group-item-action bg-black">
+                    <i class="fa-solid fa-hashtag wd-side-icon"></i>
+                    <span class="d-none d-xl-inline-block wd-side-bar-text">&nbsp;Explore</span> </a>
+                <a href="#" class=" list-group-item list-group-item-action bg-black">
+                    <i class="fa-solid fa-bell wd-side-icon"></i>
+                    <span class="d-none d-xl-inline-block wd-side-bar-text">&nbsp;Notifications</span></a>
+                <a href="#" class="list-group-item list-group-item-action bg-black">
+                    <i class="fa-solid fa-envelope wd-side-icon"></i>
+                    <span class="d-none d-xl-inline-block wd-side-bar-text">&nbsp;Messages</span></a>
+                <a href="#" class="list-group-item list-group-item-action bg-black">
+                    <i class="fa-solid fa-bookmark wd-side-icon"></i>
+                    <span class="d-none d-xl-inline-block wd-side-bar-text">&nbsp;Bookmarks</span></a>
+                <a href="#" class="list-group-item list-group-item-action bg-black">
+                    <i class="fa-solid fa-list wd-side-icon"></i>
+                    <span class="d-none d-xl-inline-block wd-side-bar-text">&nbsp;Lists</span></a>
+                <a href="#" class="list-group-item list-group-item-action bg-black">
+                    <i class="fa-solid fa-user wd-side-icon"></i>
+                    <span class="d-none d-xl-inline-block wd-side-bar-text">&nbsp;Profile</span></a>
+                <a href="#" class="list-group-item list-group-item-action bg-black">
+                    <i class="fa-solid fa-ellipsis wd-side-icon"></i>
+                    <span class="d-none d-xl-inline-block wd-side-bar-text">&nbsp;More</span></a>
             </div>
             <button class="mt-1 btn btn-primary rounded-pill w-100"> Tuit </button>
         </div>
-        <div class="col-6">
+
+<!--   Second column-->
+        <div class="col-6 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
             <div class="row">
                 <div class="col-10">
                     <div class="position-relative">
-                        <input type="email"  class="form-control rounded-pill wd-padding-search-text"  id="input1" placeholder="Search Tuiter">
+                        <input type="email"  class="form-control rounded-pill wd-padding-search-text bg-dark text-white border-dark"  id="input1" placeholder="Search Tuiter">
                         <i class="fa-solid fa-magnifying-glass position-absolute wd-search-icon"></i>
                     </div>
                 </div>
-                <div class="col-2 mt-2">
-                    <i class="fa-solid fa-gear" style="color: dodgerblue"></i>
+                <div class="col-2 mt-1">
+                    <i class="fa-solid fa-gear fs-2" style="color: lightgray"></i>
                 </div>
             </div>
 
-
-            <ul class="nav nav-tabs mt-2 mb-2">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">For you</a>
+            <ul class="nav nav-tabs mt-2 border-secondary">
+                <li class="nav-item text-secondary">
+                    <a class="nav-link text-secondary" href="#">For you</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Trending</a>
+                    <a class="nav-link text-secondary" href="#">Trending</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">News</a>
+                    <a class="nav-link text-secondary" href="#">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sports</a>
+                    <a class="nav-link text-secondary" href="#">Sports</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Entertainment</a>
+                <li class="nav-item d-none d-md-block ">
+                    <a class="nav-link text-white" href="#">Entertainment</a>
                 </li>
             </ul>
-            <div class="position-relative">
-            <img src="../../images/ai_day.jpeg" width="100%" height="70%">
+            <div class="position-relative mt-0 border-secondary">
+            <img  class="border" src="../../images/ai_day.jpeg" width="100%" height="70%">
             <h1 class="position-absolute bottom-0 ps-2 text-white">Tesla AI Day</h1>
             </div>
-            <ul class="list-group mt-0">
-                <li class="list-group-item">
-                    <div class="row">
+            <ul class="list-group mt-0 rounded-2 ">
+                <li class="list-group-item bg-black border-secondary">
+                    <div class="row ms-1 text-white">
                         <div class="col">
-                            <div class="text-secondary">
+                            <div class="row text-secondary">
                                 Web Development
                             </div>
-                            <div class="fw-bolder">
-                                ReactJS - 2h
+                            <div class="row fw-bolder position-relative">
+                                <div class="col ps-0">
+                                    ReactJS
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="col-8 text-secondary fw-lighter position-absolute wd-hour-stat">
+                                    - 2h
+                                </div>
+
                             </div>
-                            <div class="fw-bolder">
-                                React JS is a Single Page Application Network
+                            <div class="row fw-bolder">
+                                React is a JavaScript library developed by Facebook which, was used to build Instagram.com.
                             </div>
 
                         </div>
-                        <div class="col-4">
-                            <img class="float-end" src="../../images/react.webp" height="100px">
+                        <div class="col-3">
+                            <img class="float-end img-fluid w-100 h-auto"  src="../../images/react.webp" height="100px"  >
                         </div>
                     </div>
                 </li>
-                <li class="list-group-item">Tuit 2</li>
+                <li class="list-group-item  bg-black border-secondary">
+                    <div class="row ms-1 text-white">
+                        <div class="col">
+                            <div class="row fw-bolder position-relative">
+                                <div class="col ps-0">
+                                    JvaScript
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <div class="col-8 text-secondary fw-lighter position-absolute wd-hour-stat">
+                                    - 2h
+                                </div>
+
+                            </div>
+                            <div class="row fw-bolder">
+                                React is a JavaScript library developed by Facebook which, was used to build Instagram.com.
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <img class="float-end img-fluid w-100 h-auto rounded"  src="../../images/js.png" height="100px"  >
+                        </div>
+                    </div>
+                </li>
                 <li class="list-group-item">Tuit 3</li>
                 <li class="list-group-item">Tuit 4</li>
             </ul>
         </div>
-        <div class="col-4">
-            Who To Follow
+
+<!--   Third Column-->
+        <div class="col-xl-3  col-xxl-3 col-lg-3 d-none d-lg-block ">
+            <ul class="list-group">
+            <li class="list-group-item fw-bolder bg-dark text-white">Who to follow</li>
+            <li class="list-group-item bg-dark">
+                <div class="row">
+                    <div class="col-3">
+                        <img class="rounded-circle" src="../../images/bee.png" width="100%">
+                    </div>
+                    <div class="col-6 ps-0 fw-bold text-white position-relative  small text-nowrap align-content-start">
+                        The Babylon Bee
+                        <i class="fa-solid fa-circle-check position-absolute pt-1 ps-1"></i>
+                        <div class="text-secondary small"> @TheBabylonBee</div>
+
+                    </div>
+                    <div class="col-3 position-relative">
+                        <button class="btn btn-light rounded-pill fw-bolder position-absolute wd-follow-button small">Follow</button>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item bg-dark">
+                <div class="row">
+                    <div class="col-3">
+                        <img class="rounded-circle" src="../../images/linus.jpeg" width="100%">
+                    </div>
+                    <div class="col-6 ps-0 fw-bold text-white position-relative  small text-nowrap align-content-start">
+                        Linus Torvalds
+                        <i class="fa-solid fa-circle-check position-absolute pt-1 ps-1"></i>
+                        <div class="text-secondary small"> @Linus_Torvalds</div>
+
+                    </div>
+                    <div class="col-3 position-relative">
+                        <button class="btn btn-light rounded-pill fw-bolder position-absolute wd-follow-button small">Follow</button>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item bg-dark text-primary">Show more</li>
+            </ul>
+            <div class="row small mt-2 ms-1 me-1 fw-lighter text-secondary">
+                <small >Terms of Service &nbsp; &nbsp;Privacy Policy&nbsp;&nbsp;Cookie Policy</small>
+            </div>
+            <div class="row small ms-1 me-1 fw-lighter text-secondary">
+                <small >Ads info &nbsp; &nbsp;More ...&nbsp;&nbsp; © 2021 Twitter, Inc.</small>
+            </div>
         </div>
+
     </div>
+
 </div>
 </body>
 </html>
