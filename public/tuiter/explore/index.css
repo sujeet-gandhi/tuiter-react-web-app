@@ -51,3 +51,8 @@ body {
     border-bottom-width: 5px;
     border-bottom: dodgerblue;
 }
+.wd-small-text-image{
+    bottom: 45px;
+    left: 10px;
+    z-index: 5;
+}
