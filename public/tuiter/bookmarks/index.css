@@ -75,14 +75,14 @@
 .wd-tuit-reference-img{
     width: 504px;
     height: 264px;
-    padding-top: 12px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .wd-ref-image-border{
     border:1px solid dimgray;
-    padding-top: 12px;
-    border-top: 0px;
+    padding-top: 0px;
+    border-top: none;
+    margin-top: 12px;
 
 }
 
@@ -148,11 +148,33 @@
     padding-right: 12px;
 }
 
-.wd-icon-links{
-    color: darkgray;
-    text-decoration: None;
-}
 .wd-icon-links-red{
     color: red;
+    text-decoration: None;
+}
+
+body {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    padding-left: 16px;
+    max-width: 650px;
+}
+
+.wd-title-bar {
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-undo-wrapping {
+    clear: both;
+}
+
+.wd-more-options-gray{
+    float: right;
+    color: darkgray;
+}
+
+.wd-icon-links{
+    color: darkgray;
     text-decoration: None;
 }

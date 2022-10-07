@@ -33,12 +33,18 @@ body {
     padding-left: 30px;
 }
 
+.wd-date-stat{
+    left: 120px;
+    bottom: 0px;
+}
+
 .wd-hour-stat{
     left: 90px;
     bottom: 0px;
 }
+
 .wd-follow-button{
-    right:2px
+    right:12px
 }
 
 .wd-side-bar-text{
@@ -52,7 +58,35 @@ body {
     border-bottom: dodgerblue;
 }
 .wd-small-text-image{
-    bottom: 45px;
+    bottom: 55px;
     left: 10px;
     z-index: 5;
 }
+
+.wd-selected {
+    border-bottom: solid 4px rgb(29, 161, 242);
+    border-bottom-left-radius: 2px ;
+    border-bottom-right-radius: 2px;
+    border-bottom-height: 2px;
+    padding-bottom:7px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.wd-border{
+    border-left: 2px ;
+    border-right: 2px;
+    color: lightgray;
+    background-color: red;
+}
+
+.wd-rounded-top{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.wd-rounded-bottom{
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
