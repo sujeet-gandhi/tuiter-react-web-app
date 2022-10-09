@@ -43,6 +43,11 @@ body {
     bottom: 0px;
 }
 
+.wd-hour-stat-white{
+    left: 95px;
+    bottom: 0px;
+}
+
 .wd-follow-button{
     right:12px
 }
@@ -52,6 +57,9 @@ body {
 }
 .wd-side-icon{
     color: lightgray;
+}
+.wd-side-icon-white{
+    color: black;
 }
 .wd-selected-nav{
     border-bottom-width: 5px;
