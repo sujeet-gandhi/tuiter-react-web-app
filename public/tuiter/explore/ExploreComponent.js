@@ -10,7 +10,7 @@ const ExploreComponent = () => {
                     </div>
                     <div class="col-2 mt-1 ps-4 pt-1">
                         <a href="#">
-                            <i class="fa-solid fa-gear fs-2" style="color: dodgerblue"></i>
+                            <i class="fa-solid fa-gear fs-4" style="color: dodgerblue"></i>
                         </a>
                     </div>
                 </div>
