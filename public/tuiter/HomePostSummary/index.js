@@ -5,7 +5,7 @@ const PostSummaryList = () => {
 
     return(`
     
-    <ul class="list-group mt-0 rounded-2">
+<!--    <ul class="list-group mt-0 rounded-2">-->
  
     ${
         posts.map( onePost => {
@@ -13,7 +13,7 @@ const PostSummaryList = () => {
         }).join('')
 
     }
-     </ul>
+<!--     </ul>-->
 
             `)
 
