@@ -1,5 +1,5 @@
-import PostSummaryItem from "../PostSummaryList/PostSummaryItem.js"
-import posts from "../PostSummaryList/posts.js"
+import PostSummaryItem from "../HomePostSummary/PostSummaryItem.js"
+import posts from "../HomePostSummary/posts.js"
 
 const PostSummaryList = () => {
 
@@ -11,7 +11,7 @@ const PostSummaryList = () => {
         posts.map( onePost => {
             return(PostSummaryItem(onePost))
         }).join('')
-        
+
     }
      </ul>
 

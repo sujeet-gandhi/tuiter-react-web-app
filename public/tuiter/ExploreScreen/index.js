@@ -8,13 +8,13 @@ function exploreComponent() {
 
 <!--   First column Navigation Side BAr-->
 
-        <div class="col-md-2 col-sm-2 col-1 col-lg-1 col-xxl-2 col-xl-2">
-            ${NavigationSidebar()}
+        <div class="d-none d-sm-block col-md-2 col-sm-2 col-1 col-lg-1 col-xxl-2 col-xl-2">
+            ${NavigationSidebar("Explore")}
         </div>
 
 <!--   Second column Explore Component-->
 
-        <div class="col-6 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6">
+        <div class="col-12 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6">
             ${ExploreComponent()}
         </div>
 

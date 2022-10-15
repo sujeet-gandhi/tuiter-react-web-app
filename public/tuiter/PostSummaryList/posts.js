@@ -1,16 +1,16 @@
-export default exploreItems = [
+export default [
     {
         topic: 'Web Development',
         userName: 'ReactJS',
         time: '2h',
-        title: 'React JS is a Single Page Application Network by Meta used to build Instagram',
-        image: '../../images/react-blue.png'
+        title: 'React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs',
+        image: '../../images/react.webp'
     },
     {
         topic: '',
         userName: 'JavaScript',
         time: '2h',
-        title: 'JavaScript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.',
+        title: 'JavaScript is programming language that can run on browsers as well as desktops',
         image: '../../images/js.png',
         tweets: '23.4K',
     },
@@ -27,6 +27,6 @@ export default exploreItems = [
         userName: 'NodeJS',
         title: '',
         time: 'last month',
-        image: '../../images/node.png',
+        image: '../../images/nodejs1.png',
         tweets: '120K',
     },];
