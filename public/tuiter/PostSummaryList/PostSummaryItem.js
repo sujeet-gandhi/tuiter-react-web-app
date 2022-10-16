@@ -9,12 +9,10 @@ const PostSummaryItem = (post) =>{
                     </div>
                     <div class="col ps-0 text-opacity-75 fw-bolder">
                         ${post.userName}
-                        <i class="fa-solid fa-circle-check"></i>
-                    </div>
-                    <div class="col-8 text-secondary position-absolute wd-hour-stat">
+                        <i class="fa-solid fa-circle-check"></i> <span class="col-8 text-secondary position-absolute ps-2">
                         - ${post.time}
-                    </div>
-
+                    </span>
+                    </div>                
                 </div>
                 <div class="row fw-bolder text-opacity-75">
                     ${post.title}

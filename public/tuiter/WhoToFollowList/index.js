@@ -11,14 +11,9 @@ const WhoToFollowList  = () => {
                     who.map( item => {
                         return(WhoToFollowListItem(item))
                     }).join('')
-        
-        
-        
     }
             </ul>
     `)
 
 }
-
-
 export default WhoToFollowList;

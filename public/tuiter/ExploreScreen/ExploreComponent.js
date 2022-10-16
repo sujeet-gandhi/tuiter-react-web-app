@@ -5,7 +5,7 @@ const ExploreComponent = () => {
             <div class="">
                 <div class="row">
                     <div class="col-10">
-                        <div class="position-relative ms-3 mt-1">
+                        <div class="position-relative mt-1 ">
                             <input class="form-control rounded-pill wd-padding-search-text "  id="input1" placeholder="Search Tuiter">
                             <i class="fa-solid fa-magnifying-glass position-absolute wd-search-icon"></i>
                         </div>
@@ -17,7 +17,7 @@ const ExploreComponent = () => {
                     </div>
                 </div>
 
-                <ul class="nav nav-tabs mt-2 mb-2 justify-content-between">
+                <ul class="nav nav-tabs mt-2 mb-2">
                     <li class="nav-item">
                         <a class="nav-link active" href="#">For you</a>
                     </li>
@@ -38,7 +38,7 @@ const ExploreComponent = () => {
             <div class="mt-2">
                 <div class="position-relative border border-dark">
                     <img src="../../images/ai_day_3.webp" width="100%" height="70%">
-                    <h1 class="position-absolute bottom-0 ps-2 text-white fs-5">Tesla AI Day - Humanoid Robot Prototype Optimus Revealed at Paolo Alto &nbsp;<i class="fa-solid fa-robot"></i> </h1>
+                    <h1 class="position-absolute bottom-0 ps-2 text-white fs-4">Tesla AI Day - Optimus Revealed &nbsp;<i class="fa-solid fa-robot"></i> </h1>
 
                     <h6 class="position-absolute text-white small wd-small-text-image">Science | Trending</h6>
 

@@ -1,4 +1,4 @@
-import PostSummaryList from "../HomePostSummary/index.js"
+import PostSummaryList from "../PostList/index.js"
 
 const HomeComponent = () => {
     return (`
