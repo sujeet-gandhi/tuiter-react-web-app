@@ -36,7 +36,7 @@ const ExploreComponent = () => {
                 </ul>
             </div>
             <div class="mt-2">
-                <div class="position-relative border border-dark">
+                <div class="position-relative">
                     <img src="../../images/ai_day_3.webp" width="100%" height="70%">
                     <h1 class="position-absolute bottom-0 ps-2 text-white fs-4">Tesla AI Day - Optimus Revealed &nbsp;<i class="fa-solid fa-robot"></i> </h1>
 
