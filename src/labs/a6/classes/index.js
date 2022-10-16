@@ -15,5 +15,5 @@ function Classes() {
             </div>
         </div>
     )
-};
+}
 export default Classes;
