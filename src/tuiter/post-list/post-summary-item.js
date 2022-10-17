@@ -20,14 +20,14 @@ const PostSummaryItem= (
                     <div className="col-1 ps-0">
                         <img className="rounded-circle " src={post.userImage} alt={'postUserImage'} height="50px" width="50px"/>
                     </div>
-                    <div className="col-10 ps-3 fw-bold text-nowrap">
+                    <div className="col-10 ps-3 fw-bold">
                         {post.username}
                         <i className="fa-solid fa-circle-check"></i>
                         <span className="text-secondary"> @{post.handle}</span>
                         <span className="text-secondary"> . {post.time}</span>
                         <div className="fw-lighter">
-                            {post.messageBeforeLink} <a className="text-decoration-none"
-                                                         href={post.messageLink}>{post.messageLinkText}</a>{post.messageAfterLink}
+                            <span>{post.messageBeforeLink} <a className="text-decoration-none"
+                                                              href={post.messageLink}>{post.messageLinkText}</a>{post.messageAfterLink}</span>
                         </div>
                     </div>
                     <div className="col-1 ps-0">
