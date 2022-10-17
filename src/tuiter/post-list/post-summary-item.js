@@ -18,7 +18,7 @@ const PostSummaryItem= (
             <div className="row">
                 <div className="row">
                     <div className="col-1 ps-0">
-                        <img className="rounded-circle " src={post.userImage} height="50px" width="50px"/>
+                        <img className="rounded-circle " src={post.userImage} alt={'postUserImage'} height="50px" width="50px"/>
                     </div>
                     <div className="col-10 ps-3 fw-bold text-nowrap">
                         {post.username}
@@ -38,7 +38,7 @@ const PostSummaryItem= (
                 <div className="col-10">
                     <div className={`${post.imageWithText === false? 'wd-rounded-bottom':''}  row mt-2 border border-secondary wd-rounded-top`}>
 
-                        <img className={`${post.imageWithText === false? 'wd-rounded-bottom':' '} ps-0 pe-0 wd-rounded-top`} src={post.image}/>
+                        <img className={`${post.imageWithText === false? 'wd-rounded-bottom':' '} ps-0 pe-0 wd-rounded-top`} alt={'postImage'} src={post.image}/>
                     </div>
                     <div className={`${post.imageWithText === false? 'd-none':' '} row ps-1 pt-1 border border-secondary wd-rounded-bottom`}>
                         <span className="text-white"> {post.imageTitle} </span>
