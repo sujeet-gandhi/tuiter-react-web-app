@@ -34,9 +34,9 @@ const ExploreComponent = () => {
                 </li>
             </ul>
             <div className="position-relative mb-2">
-                <img src="../../images/ai_day_3.webp" className="w-100"/>
+                <img src="../../images/ai_day_3.webp" alt={'mainPostImage'} className="w-100"/>
                 <h3 className="position-absolute wd-nudge-up text-white fw-bolder fs-4">
-                    Tesla AI Day - Optimus Revealed&nbsp;<i class="fa-solid fa-robot"></i></h3>
+                    Tesla AI Day - Optimus Revealed&nbsp;<i className="fa-solid fa-robot"></i></h3>
             </div>
             <PostSummaryList/>
         </>
