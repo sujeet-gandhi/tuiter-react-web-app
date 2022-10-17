@@ -1,3 +1,4 @@
+import React from "react";
 import {Link} from "react-router-dom";
 import {useLocation} from "react-router";
 
@@ -12,7 +13,6 @@ const NavigationSidebar = () => {
             <Link to="/tuiter/home" href="#" className={`
         ${parts[2] === 'home'  || parts.length <3 ? 'active': ''} list-group-item`}>
                 <i className="fa-solid fa-house "></i> &nbsp;Home
-
             </Link>
             <Link to="/tuiter/explore"  href="#"
                   className={`

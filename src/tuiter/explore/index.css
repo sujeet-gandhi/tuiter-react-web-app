@@ -12,8 +12,12 @@
 }
 
 .wd-nudge-up {
+    bottom: 0px;
+    left: 12px;
+}
+.wd-nudge-up-search {
     bottom: 18px;
-    left: 25px;
+    left: 22px;
 }
 
 .wd-bottom-2 {
