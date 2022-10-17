@@ -1,8 +1,11 @@
-const Home = () => {
+import React from "react";
+import "./index.css";
+import PostSummaryList from "../post-list";
+const HomeComponent = () => {
     return(
         <div>
-            <h2>Home Screen</h2>
+            <PostSummaryList/>
         </div>
-    )
-}
-export default Home;
+    );
+};
+export default HomeComponent;
