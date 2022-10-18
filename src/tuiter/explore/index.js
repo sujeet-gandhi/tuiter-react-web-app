@@ -5,11 +5,12 @@ const ExploreComponent = () => {
     return(
         <>
             <div className="row">
-                <div className="col-11 position-relative">
-                    <input placeholder="Search Tuiter"
-                           className="form-control rounded-pill ps-5"/>
-                    <i className="bi bi-search position-absolute
-                       wd-nudge-up-search"></i>
+                <div className="col-10">
+                    <div className="position-relative mt-1 ">
+                        <input className="form-control rounded-pill ps-4" id="input1"
+                               placeholder="Search Tuiter"/>
+                            <i className="fa-solid fa-magnifying-glass position-absolute wd-search-icon"></i>
+                    </div>
                 </div>
                 <div className="col-1">
                     <i className="wd-bottom-4 text-primary float-end bi

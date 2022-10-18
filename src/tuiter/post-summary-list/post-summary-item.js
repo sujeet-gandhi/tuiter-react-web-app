@@ -16,7 +16,7 @@ const PostSummaryItem= (
                         </div>
                         <div className="col ps-0 text-opacity-75 fw-bolder">
                             {`${post.userName}`}
-                            <i className="fa-solid fa-circle-check"></i> <span
+                            <i className="fa-solid fa-circle-check ps-1"></i> <span
                             className="col-8 text-secondary position-absolute ps-2">
                         - {`${post.time}`}
                     </span>

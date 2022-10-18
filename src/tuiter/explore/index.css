@@ -3,7 +3,7 @@
 }
 
 .wd-tabs {
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 .wd-selected {
@@ -12,7 +12,7 @@
 }
 
 .wd-nudge-up {
-    bottom: 0px;
+    bottom: 0;
     left: 12px;
 }
 .wd-nudge-up-search {
@@ -26,4 +26,12 @@
 
 .wd-bottom-4 {
     bottom: 4px;
+}
+.wd-search-icon{
+    bottom: 10px;
+    left: 5px;
+
+}
+.wd-padding-search-text {
+    padding-left: 50px;
 }
