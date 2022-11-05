@@ -1,5 +1,5 @@
 import React from "react";
-import {Link, useNavigate} from "react-router-dom";
+import {Link} from "react-router-dom";
 import {useState} from "react";
 import {updateProfile} from "../profile/profile-reducer";
 import {useDispatch, useSelector} from "react-redux";
@@ -11,7 +11,6 @@ const EditProfile = () => {
     const [currentState, setCurrentState] = useState(profileInfo);
     const origData = {...profileInfo}
     const dispatch = useDispatch();
-    const navigate = useNavigate();
 
 
     const cancelHandler = () => {
@@ -21,7 +20,6 @@ const EditProfile = () => {
     const saveHandler = () =>
     {
         dispatch(updateProfile(currentState));
-        // navigate("tuiter/profile")
     }
     const editHandler = (event) => {
         const indexInfo = event.target.name;
@@ -62,19 +60,15 @@ const EditProfile = () => {
                     </div>
                 </div>
             </div>
-            {/*<div className="row mt-5">*/}
-            {/*    <div className="row mt-5">*/}
-            {/*        <label form="firstName">First Name</label>*/}
-            {/*        <input type="text" className="form-control" id="firstName" name="firstName" value={currentState.firstName}*/}
-            {/*        onChange={editHandler}/>*/}
-            {/*    </div>*/}
+            <div className="row mt-5">
+                <div className="row mt-5">
+                    <label form="firstName">First Name</label>
+                    <input type="text" className="form-control" id="firstName" name="firstName" value={currentState.firstName}
+                    onChange={editHandler}/>
+                </div>
 
-            {/*</div>*/}
-            <div className="form-floating wd-top-margin-form">
-                <input type="text" className="form-control" id="firstName" name="firstName"
-                       value={currentState.firstName} onChange={editHandler}/>
-                <label form="firstName">First Name</label>
             </div>
+
 
 
 
