@@ -1,7 +1,7 @@
 import React from "react";
 import TuitStat from "../tuit-stats";
 import {useDispatch} from "react-redux";
-
+import {deleteTuit} from "../tuits-reducer"
 
 const TuitItem = (eachPost) => {
     console.log("each post", eachPost)
@@ -19,14 +19,14 @@ const TuitItem = (eachPost) => {
 
                 </div>
                 <div className="col-10 ms-2 mt-2">
+                    <i className="bi bi-x-lg float-end"
+                       onClick={() => deleteTuitHandler(eachPost._id)}></i>
                     <div className="row ">
                         <div className="fw-bold float-start">
                             {eachPost.username}
                             <i className="fa-solid fa-circle-check ps-1"></i>
                             <span className="text-secondary ps-1"> {eachPost.handle}</span>
                             <span className="text-secondary"> . {eachPost.time}</span>
-                            <span className="text-secondary float-end ">...</span>
-
                             <div className="fw-lighter">
                                 {eachPost.tuit}
                             </div>

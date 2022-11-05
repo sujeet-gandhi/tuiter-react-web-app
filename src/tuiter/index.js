@@ -8,11 +8,12 @@ import whoReducer
 import { configureStore }
     from '@reduxjs/toolkit';
 import tuitsReducer from "./tuits/tuits-reducer";
-import TuitList from "./tuits/tuit-list";
+import profileReducer from "./edit-profile/profile-reducer"
 import {Provider} from "react-redux";
 import HomeComponent from "./home"
+import ProfileComponent from "./edit-profile"
 const store = configureStore(
-    {reducer: {whoReducer: whoReducer, tuitsReducer:tuitsReducer}});
+    {reducer: {whoReducer: whoReducer, tuitsReducer:tuitsReducer, profileReducer:profileReducer}});
 
 
 function Tuiter() {
@@ -25,7 +26,8 @@ function Tuiter() {
                 <div className="col-12 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6">
                     <Routes>
                         <Route path="home"    element={<HomeComponent/>}/>
-                        <Route path=""    element={<TuitList/>}/>
+                        <Route path=""    element={<HomeComponent/>}/>
+                        <Route path="profile"    element={<ProfileComponent/>}/>
                         <Route path="explore" element={<ExploreComponent/>}/>
                     </Routes>
                 </div>
