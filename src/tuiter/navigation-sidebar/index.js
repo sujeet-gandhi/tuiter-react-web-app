@@ -7,7 +7,7 @@ const NavigationSidebar = () => {
     const {pathname, search} = location;
     console.log(pathname, search);
     const parts = pathname.split('/')
-    console.log(parts.length);
+    console.log(parts[2]);
     return(
         <div className="list-group">
             <Link to="/tuiter/home" href="#" className={`
@@ -53,11 +53,12 @@ const NavigationSidebar = () => {
             </Link>
             <Link to="/tuiter/profile" href="#"
                   className={`
-              ${parts[2] === 'profile' ? 'active' : ''}
+              ${parts[2] === 'profile' || parts[2] === 'edit-profile' ? 'active' : ''}
             list-group-item`}>
                 <i className="fa-solid fa-user "></i>
                 <span className="d-none d-xl-inline-block focus">&nbsp;Profile</span>
             </Link>
+
             <Link to="/tuiter/more" href="#"
                   className={`
               ${parts[2] === 'more' ? 'active' : ''}

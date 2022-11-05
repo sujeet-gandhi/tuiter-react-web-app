@@ -2,7 +2,7 @@ import React from "react";
 
 const TuitStat = ({post}) =>
     <div>
-        <div className="row mt-3 text-secondary text-nowrap mb-1">
+        <div className="row mt-3 text-secondary text-nowrap mb-1 ms-1">
             <div className="col-3 ">
                 <i className="fa-solid fa-comment"></i> <span className="ps-1">{post.comments}</span>
             </div>
