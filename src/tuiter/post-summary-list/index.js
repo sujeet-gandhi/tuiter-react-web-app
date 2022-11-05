@@ -8,12 +8,15 @@ const PostSummaryList = () => {
     return(
         <ul className="list-group">
             {
+                
                 postArray.map(post =>
                     <PostSummaryItem
                         key={post._id}
                         post={post}/>
                 )
+
             }
+
         </ul>
     );
 };

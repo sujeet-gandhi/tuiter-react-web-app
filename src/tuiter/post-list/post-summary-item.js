@@ -5,14 +5,7 @@ const PostSummaryItem= (
     }
 
 ) => {
-    let show = 'd-none'
-    let wdRoundBottom = 'wd-rounded-bottom'
-    if (post.imageWithText === true) {
-        show = ' '
-        wdRoundBottom = ''
-    }
-    console.log('show', show)
-    console.log('wdRoundBottom', wdRoundBottom)
+    console.log("tuit", post.tuit)
     return(
         <div className="row">
             <div className="col-1 ms-4">
@@ -29,25 +22,11 @@ const PostSummaryItem= (
                         <span className="text-secondary float-end ">...</span>
 
                         <div className="fw-lighter">
-                            <span>{post.messageBeforeLink} <a className="text-decoration-none"
-                                                              href={post.messageLink}>{post.messageLinkText}</a>{post.messageAfterLink}</span>
+                            {post.tuit}
                         </div>
                     </div>
                 </div>
-
-                <div className="row ps-2">
-                    <div className={`${post.imageWithText === false? 'wd-rounded-bottom':''}  ps-0 pe-0 mt-2 border border-secondary wd-rounded-top`}>
-
-                        <img  className={`${post.imageWithText === false? 'wd-rounded-bottom':''}   wd-rounded-top`} alt={'postImage'} src={post.image} width="100%"/>
-                    </div>
-                </div>
-                <div className="row ps-2">
-                    <div className={`${post.imageWithText === false? 'd-none':' '}  ps-2 pe-2 border border-secondary wd-rounded-bottom`}>
-                        <div className="mt-1 fw-bolder ps-1"><span className="text-white "> {post.imageTitle} </span></div>
-                        <div className="fw-bolder ps-1"><span className="text-secondary">{post.imageInfo}</span></div>
-                        <div className="fw-bolder ps-1 text-secondary"><i className="fa-solid fa-link"></i> {post.imageLink}</div>
-                    </div>
-                </div>
+                
 
                 <div className="row mt-3 text-secondary text-nowrap">
                     <div className="col-3 ">
