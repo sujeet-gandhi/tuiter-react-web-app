@@ -23,7 +23,7 @@ const WhatsHappening = () => {
                  onChange={(event) => setWhatsHappening(event.target.value)}>
        </textarea>
                 <div>
-                    <button className="rounded-pill btn-sm btn-primary float-end mt-2 ps-3 pe-3 fw-bold"
+                    <button className="rounded-pill btn-sm btn-primary float-end mt-1 ps-3 pe-3 fw-bold"
                             onClick={tuitClickHandler}>
                         Tuit
                     </button>

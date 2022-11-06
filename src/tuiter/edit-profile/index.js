@@ -81,9 +81,9 @@ const EditProfile = () => {
                            onChange={editHandler}/>
                 </div>
                 <div className="row mt-1">
-                    <label form="dateOfBirth">Date Of Birth (MM/DD/YYY) </label>
-                    <input type="text" className="form-control ms-2" id="dateOfBirth" name="dateOfBirth" value={currentState.dateOfBirth}
-                           onChange={editHandler}/>
+                    <label htmlFor="dateOfBirth">Date Of Birth (DD/MM/YYY) </label>
+                    <input type="date" className="form-control ms-2" id="dateOfBirth" name="dateOfBirth"  placeholder="www.google.com"
+                           value={currentState.dateOfBirth} onChange={editHandler}/>
                 </div>
             </div>
         </div>
@@ -91,3 +91,6 @@ const EditProfile = () => {
 }
 
 export default EditProfile;
+
+
+

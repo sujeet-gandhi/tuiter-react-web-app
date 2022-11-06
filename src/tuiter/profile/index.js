@@ -5,9 +5,9 @@ import {Link} from "react-router-dom";
 const ProfileComponent = () => {
     const profileData = useSelector((state) => state.profileReducer);
     const months = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']
-    const dateBornSplit = profileData.dateOfBirth.split('/')
-    const dateBorn = months[dateBornSplit[0]-1] + " " + dateBornSplit[1] + ", " + dateBornSplit[2]
-    const dateJoinedSplit = profileData.dateJoined.split('/')
+    const dateBornSplit = profileData.dateOfBirth.split('-')
+    const dateBorn = months[dateBornSplit[1]-1] + " " + dateBornSplit[2] + ", " + dateBornSplit[0]
+    const dateJoinedSplit = profileData.dateJoined.split('-')
     const dateJoined = months[dateJoinedSplit[0]-1] + ", " + dateJoinedSplit[1]
     console.log(dateBorn, dateJoined)
 
