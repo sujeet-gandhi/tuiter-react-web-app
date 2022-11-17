@@ -6,12 +6,11 @@ import {findTuitsThunk} from "../../../services/tuits-thunks";
 
 
 const TuitsList = () => {
-    const {tuitsArray, loading} = useSelector(state => state.tuitsData);
+    const {tuits, loading} = useSelector(state => state.tuitsData);
     const dispatch = useDispatch();
     useEffect(()=> {
         dispatch(findTuitsThunk())
     }, [])
-    console.log("array", tuitsArray)
     return (
         <>
             {
@@ -22,7 +21,7 @@ const TuitsList = () => {
             }
 
             {
-                tuitsArray?.map(eachPost =>
+                tuits.map(eachPost =>
                     <TuitItem {...eachPost} /> )
             }
         </>
