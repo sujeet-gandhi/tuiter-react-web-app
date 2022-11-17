@@ -5,9 +5,7 @@ import {useLocation} from "react-router";
 const NavigationSidebar = () => {
     const location = useLocation();
     const {pathname, search} = location;
-    console.log(pathname, search);
     const parts = pathname.split('/')
-    console.log(parts[2]);
     return(
         <div className="list-group">
             <Link to="/tuiter/home" href="#" className={`

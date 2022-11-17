@@ -62,29 +62,30 @@ const EditProfile = () => {
             <div className="row mt-5 me-2">
                 <div className="row mt-5">
                     <label form="firstName">First Name</label>
-                    <input type="text" className="form-control ms-2" id="firstName" name="firstName" value={currentState.firstName}
+                    <input type="text" className="form-control text-bg-dark ms-2" id="firstName" name="firstName" value={currentState.firstName}
                     onChange={editHandler}/>
                 </div>
                 <div className="row mt-1">
                     <label form="lastName">Last Name</label>
-                    <input type="text" className="form-control ms-2" id="lastName" name="lastName" value={currentState.lastName}
+                    <input type="text" className="form-control text-bg-dark ms-2" id="lastName" name="lastName" value={currentState.lastName}
                            onChange={editHandler}/>
                 </div>
                 <div className="row mt-1">
                     <label form="bio">Bio</label>
-                    <textarea className="form-control ms-2 h-auto" id="bio" name="bio" value={currentState.bio}
+                    <textarea className="form-control text-bg-dark ms-2 h-auto" id="bio" name="bio" value={currentState.bio}
                            onChange={editHandler}/>
                 </div>
                 <div className="row mt-1">
                     <label form="location">Location</label>
-                    <input type="text" className="form-control ms-2" id="location" name="location" value={currentState.location}
+                    <input type="text" className="form-control text-bg-dark ms-2" id="location" name="location" value={currentState.location}
                            onChange={editHandler}/>
                 </div>
                 <div className="row mt-1">
                     <label htmlFor="dateOfBirth">Date Of Birth (DD/MM/YYY) </label>
-                    <input type="date" className="form-control ms-2" id="dateOfBirth" name="dateOfBirth"  placeholder="www.google.com"
+                    <input type="date" className="form-control text-bg-dark ms-2" id="dateOfBirth" name="dateOfBirth"
                            value={currentState.dateOfBirth} onChange={editHandler}/>
                 </div>
+
             </div>
         </div>
     )
