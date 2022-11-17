@@ -26,7 +26,7 @@ const tuitsSlice = createSlice(
 
     {
     name: 'tuits',
-    initialState: initialState,
+    initialState,
     extraReducers: {
         [findTuitsThunk.pending]:
             (state) => {
@@ -66,5 +66,5 @@ const tuitsSlice = createSlice(
         }
     });
 
-// export const {createTuit, deleteTuit} = tuitsSlice.actions;
+export const {createTuit, deleteTuit} = tuitsSlice.actions;
 export default tuitsSlice.reducer;

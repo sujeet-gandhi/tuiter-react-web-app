@@ -5,7 +5,6 @@ const PostSummaryItem= (
     }
 
 ) => {
-    console.log('post',post)
     return(
         <li className="list-group-item ">
             <div className="row ms-1">

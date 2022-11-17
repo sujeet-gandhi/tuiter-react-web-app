@@ -4,7 +4,6 @@ import {updateTuitThunk} from "../../../services/tuits-thunks";
 
 const TuitStat = ({post}) => {
     const dispatch = useDispatch();
-    console.log("tuit-stat", post)
     return (
         <div>
             <div className="row mt-3 text-secondary text-nowrap mb-1 ms-1">

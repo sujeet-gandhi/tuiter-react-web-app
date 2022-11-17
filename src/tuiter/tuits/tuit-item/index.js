@@ -4,7 +4,6 @@ import {useDispatch} from "react-redux";
 import {deleteTuitThunk} from "../../../services/tuits-thunks.js";
 
 const TuitItem = (eachPost) => {
-    console.log("each post", eachPost)
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuitThunk(id));

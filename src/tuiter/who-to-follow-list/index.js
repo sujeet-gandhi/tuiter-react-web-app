@@ -1,5 +1,4 @@
 import React from "react";
-// import whoArray from './who.json';
 import '../../index.css'
 import WhoToFollowListItem
     from "./who-to-follow-list-item";
