@@ -12,8 +12,10 @@ const templateTuit = {
     ...currentUser,
     "topic": "Space",
     "time": "2h",
+    "dislikes":0,
     "liked": false,
-    "comments": 0,
+    "disliked": false,
+    "replies": 0,
     "retuits": 0,
     "likes": 0,
 }
